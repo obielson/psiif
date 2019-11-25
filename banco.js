@@ -24,7 +24,7 @@ class bancodedados{
             if (cpf == banco[i].cpf){
                 cont = -1;
                 back.innerHTML += "<p>Nome: "+ banco[i].nome+ "</p>";
-                back.innerHTML += "<p>Telefone: "+ banco[i].tel+ "</p>";
+                back.innerHTML += "<p>Telefone: "+ banco[i].telefone+ "</p>";
                 back.innerHTML += "<p>Email: "+ banco[i].email+ "</p>";
                 back.innerHTML += "<p>Descrição: "+ banco[i].desc+ "</p>";
             }

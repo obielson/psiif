@@ -9,7 +9,7 @@ class User{
 
     entrada(n,t,e,c,d){
         this.nome = n;
-        this.telefone = parseFloat(t);
+        this.telefone = t;
         this.email = e;
         this.cpf = c;
         this.desc = d;
