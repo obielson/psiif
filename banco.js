@@ -3,7 +3,7 @@ class bancodedados{
         /* 
         Nesse trecho de código, fará uma verificação e inserção de dados
         */
-        if (localStorage.length == 0){
+        if (localStorage.length == 0 || []){
             banco.push(user);
             localStorage.setItem('user', JSON.stringify(banco));
         } else {
